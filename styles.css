@@ -75,6 +75,33 @@ background-size: cover;
 .search-bar{
     width: 100%;
 }
+.buttons-all{
+    margin-top: 20px;
+    text-align: center;
+}
+.search-button{
+    margin-left: 10px;
+    padding:10px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.end-bar{
+position:absolute;
+bottom: 0;
+width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    background-color: rgb(224, 224, 224);
+}
+.right-side{
+    margin-right: 20px;
+}
+.foot-links{
+    color:#3b3b3b;
+    margin-left: 20px;
+}
 .nav-right:hover , .nav-left:hover{
     text-decoration: underline;
 }
@@ -83,4 +110,10 @@ background-size: cover;
 }
 .search-input:hover {
     box-shadow: 0 0 7px rgb(197, 197, 197);
+}
+.search-button:hover{
+    background-color: rgb(209, 209, 209);
+}
+.foot-links:hover{
+    text-decoration: underline;
 }
